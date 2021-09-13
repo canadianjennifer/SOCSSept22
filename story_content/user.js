@@ -2,22 +2,22 @@ function ExecuteScript(strId)
 {
   switch (strId)
   {
-      case "5uWRTgS8Nks":
+      case "6GRcrjeFP91":
         Script1();
         break;
-      case "6jrVELR7eqQ":
+      case "6EZahZf2DH2":
         Script2();
         break;
-      case "6Tc14WbXbId":
+      case "5lDAqw6kTvi":
         Script3();
         break;
-      case "6dZ2e2evdys":
+      case "6O8WirfRjNv":
         Script4();
         break;
-      case "6iHFtmrxaIs":
+      case "6iRlQ9AJOUh":
         Script5();
         break;
-      case "5h4vEEGlntf":
+      case "6dGj4NSnZpd":
         Script6();
         break;
   }
@@ -87,12 +87,10 @@ function Script5()
   var player = GetPlayer();
 
 var LearnerName = player.GetVar('LearnerName');
-var LearnerEmail = player.GetVar('LearnerEmail');
 var CorrectAnswer = player.GetVar('CorrectAnswer');
 
 var formData = new FormData();
 formData.append('LearnerName', LearnerName);
-formData.append('LearnerEmail', LearnerEmail);
 formData.append('CorrectAnswer', CorrectAnswer);
 
 
@@ -106,12 +104,10 @@ function Script6()
   var player = GetPlayer();
 
 var LearnerName = player.GetVar('LearnerName');
-var LearnerEmail = player.GetVar('LearnerEmail');
 var CorrectAnswer = player.GetVar('CorrectAnswer');
 
 var formData = new FormData();
 formData.append('LearnerName', LearnerName);
-formData.append('LearnerEmail', LearnerEmail);
 formData.append('CorrectAnswer', CorrectAnswer);
 
 
